@@ -41,8 +41,7 @@ def avoir_voisin(row, col):
             neighbors.append((row + drow, col + dcol, direction))
     return neighbors
 
-def enleve_mur(row1, col1, row2, col2):
-    lab[(row1 + row2)//2][(col1 + col2)//2] = "0"
+
 
 def generer_lab():
     row, col = random.randint(0, ROWS*2-1), random.randint(0, COLS*2-1)
