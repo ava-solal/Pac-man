@@ -1,9 +1,9 @@
 import random
 
 # longueur
-ROWS = 80
+ROWS = 10
 # largeur
-COLS = 80
+COLS = 10
 
 lab = []
 
