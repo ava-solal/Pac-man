@@ -32,14 +32,14 @@ for i in range(ROWS*2+1):
             # open space
             lab[i].append("0")
 #direction possible
-voisin = {"N": (-1, 0), "S": (1, 0), "E": (0, 1), "W": (0, -1)}
+voisin = {"N": (-1, 0), "S": (1, 0), "E": (0, 1), "O": (0, -1)}
 
 def avoir_voisin(row, col):
-    neighbors = []
+    voisin = []
     for direction, (drow, dcol) in voisin.items():
         if 0 <= row + drow < ROWS*2+1 and 0 <= col + dcol < COLS*2+1:
-            neighbors.append((row + drow, col + dcol, direction))
-    return neighbors
+            voisin.append((row + drow, col + dcol, direction))
+    return voisin
 
 
 
@@ -50,12 +50,12 @@ def generer_lab():
     while stack:
         row, col = stack.pop()
         lab[row][col] = "1"
-        neighbors = get_neighbors(row, col)
-        random.shuffle(neighbors)
-        for nrow, ncol, direction in neighbors:
+        voisin = avoir_voisin(row, col)
+        random.shuffle(voisin)
+        for nrow, ncol, direction in voisin:
             if lab[nrow][ncol] == "1":
                 continue
-            remove_wall(row, col, nrow, ncol)
+            enlever_mur(row, col, nrow, ncol)
             stack.append((nrow, ncol))
 
 generer_lab()
