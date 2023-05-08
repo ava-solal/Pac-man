@@ -6,6 +6,7 @@ Labytinthe(fait main) => Ava
 Premier code de création de labyrithe automatique. => Lilou 
 
  Déplacement pac man => Emilia
+ labyrinthe automatique => Ava
 
 {Encore en train d'apprendre la biblio pyxel}
 
