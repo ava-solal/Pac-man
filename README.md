@@ -50,7 +50,7 @@ Travail à faire pour la séance prochaine:
 - déplacement pac man + fantômes (en aléatoire)
 - @Lilou @Ava travaillez sur la génération automatique ensemble
 
-Qui est présent?
+Présence en cours:
 Emilia
 
 {Encore en train d'apprendre la biblio pyxel}
