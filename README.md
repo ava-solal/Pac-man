@@ -47,8 +47,8 @@ Avancées en programme en cours:
 continuation de déplacement => Emilia
 
 Travail à faire pour la séance prochaine:
-- déplacement pac man + fantômes (en aléatoire)
-- @Lilou @Ava travaillez sur la génération automatique ensemble
+- déplacement pac man => Emilia
+- travaillez sur la génération automatique ensemble =>Ava lilou
 
 Présence en cours:
 Emilia
