@@ -53,7 +53,20 @@ Travail à faire pour la séance prochaine:
 Présence en cours:
 Emilia
 
+Session 5:
+Laby auto Ava fini, déplacement pac man avancé Emilia
+
+Avancées en programme en cours:
+Compréhension pyxel Emilia (déplacement, tuto pyxel première github), Avancée du Github par Ava
+
+Travail à faire pour la séance prochaine:
+- terminer le déplacement =>Emilia 
+- déplacement aléatoire fantômes =>Ava 
+- travail sur le clavier =>Lilou
+
+Présence en cours:
+Ava, Emilia, Lilou
+
+
 {Encore en train d'apprendre la biblio pyxel}
-
-
 Site GitHub créé par Ava
