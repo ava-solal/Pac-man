@@ -4,7 +4,7 @@ import random
 largeur_labyrinthe = 20
 hauteur_labyrinthe = 20
 
-# Caractères pour représenter les murs, les chemins et les points
+# Caractères pour représenter les murs, les chemins
 mur = '1'
 chemin = '0'
 
