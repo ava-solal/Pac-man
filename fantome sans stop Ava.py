@@ -21,20 +21,18 @@ def deplacement_fantome():
     elif deplacement == 'bas':
         position_y += 1
 
-    #fait en sorte que les coordone ne soit jamais négative
+    # Faire en sorte que les coordonnées ne soient jamais négatives
     if position_x < 0:
-        position_x +=1
+        position_x += 1
 
-    if position_y <0:
-        position_y +=1
-
+    if position_y < 0:
+        position_y += 1
 
 
 # Boucle continue de déplacement du fantôme
 while True:
-
-
     # Déplacement du fantôme
     deplacement_fantome()
-     print("Nouvelles coordonnées du fantôme : (", position_x, ",", position_y, ")")
+    print("coordonnées du fantôme : (", position_x, ",", position_y, ")")
+
 
